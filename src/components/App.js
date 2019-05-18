@@ -1,11 +1,16 @@
 import React from 'react';
 
+const object = {
+  a: 1,
+  b: 2,
+};
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {object} <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
