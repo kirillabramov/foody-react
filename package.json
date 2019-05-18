@@ -12,9 +12,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged",
     "lint": "eslint src/**/*.{js, jsx}",
     "format": "eslint src/**/*.{js, jsx} --fix"
+  },
+  "husky": {
+    "precommit": "lint-staged"
   },
   "eslintConfig": {
     "extends": "react-app"
